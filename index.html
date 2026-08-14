@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Tags -->
+  <title>Kevin Jonas Espinoza García | Portafolio Profesional</title>
+  <meta name="description"
+    content="Portafolio profesional de Kevin Jonas Espinoza García - Especialista en Análisis de Datos y Paid Media Analysis. Estudiante de Ingeniería en Sistemas.">
+  <meta name="keywords"
+    content="Kevin Espinoza, Data Analyst, Paid Media, Google Ads, Meta Ads, Auditoría de pautas, Ingeniería en Sistemas, Nicaragua">
+  <meta name="author" content="Kevin Jonas Espinoza García">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="lang-es">
+
+  <!-- --- NAVIGATION HEADER --- -->
+  <header id="main-header">
+    <div class="logo">
+      JONASEG<span>.DEV</span>
+    </div>
+
+    <button class="menu-btn" id="menu-btn" aria-label="Abrir menú">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="nav-menu">
+      <ul>
+        <li>
+          <a href="#home" class="active">
+            <span class="lang-es">Inicio</span>
+            <span class="lang-en">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#about">
+            <span class="lang-es">Sobre Mí</span>
+            <span class="lang-en">About Me</span>
+          </a>
+        </li>
+        <li>
+          <a href="#specialties">
+            <span class="lang-es">Especialidades</span>
+            <span class="lang-en">Expertise</span>
+          </a>
+        </li>
+        <li>
+          <a href="#experience">
+            <span class="lang-es">Experiencia</span>
+            <span class="lang-en">Experience</span>
+          </a>
+        </li>
+        <li>
+          <a href="#skills-edu">
+            <span class="lang-es">Habilidades</span>
+            <span class="lang-en">Skills</span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <span class="lang-es">Contacto</span>
+            <span class="lang-en">Contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="lang-toggle" id="lang-toggle" onclick="toggleLanguage()" title="Cambiar idioma / Change Language">
+        EN
+      </button>
+      <a href="#contact" class="btn btn-secondary">
+        <span class="lang-es">Hablemos</span>
+        <span class="lang-en">Let's Talk</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- --- HERO SECTION --- -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-subtitle">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <span class="lang-es">Disponible para Proyectos</span>
+            <span class="lang-en">Available for Projects</span>
+          </div>
+          <h1 class="hero-title gradient-text">
+            KEVIN JONAS ESPINOZA GARCIA
+          </h1>
+          <div class="hero-roles">
+            <span id="typewriter-text"></span><span class="typed-cursor">|</span>
+          </div>
+          <p class="hero-desc">
+            <span class="lang-es">
+              Especialista en la optimización de rendimiento digital mediante análisis de datos avanzados y auditorías
+              técnicas de Paid Media. Transformando datos complejos en decisiones de inversión estratégicas.
+            </span>
+            <span class="lang-en">
+              Specialized in optimizing digital performance through advanced data analysis and technical Paid Media
+              audits. Transforming complex metrics into strategic investment decisions.
+            </span>
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">
+              <span class="lang-es">Contactar Ahora</span>
+              <span class="lang-en">Contact Me</span>
+            </a>
+            <a href="#specialties" class="btn btn-secondary">
+              <span class="lang-es">Ver Enfoques</span>
+              <span class="lang-en">View Focus Areas</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Animated Tech Dashboard Representation -->
+        <div class="hero-visual">
+          <div class="dashboard-mockup">
+            <div class="dashboard-inner">
+              <div
+                style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.8rem;">
+                <span class="badge" style="font-size: 0.7rem;">Realtime Analytics</span>
+                <span style="font-family: monospace; font-size: 0.75rem; color: var(--primary);">CTR +34.2%</span>
+              </div>
+
+              <!-- SVG chart drawing dynamic path -->
+              <svg class="chart-svg" viewBox="0 0 300 150">
+                <defs>
+                  <linearGradient id="chart-grad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.3" />
+                    <stop offset="100%" stop-color="var(--primary)" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+                <!-- Area -->
+                <path d="M 10 140 L 50 110 L 90 120 L 130 70 L 170 90 L 210 40 L 250 50 L 290 20 L 290 140 Z"
+                  fill="url(#chart-grad)" />
+                <!-- Line -->
+                <path class="chart-line" d="M 10 140 L 50 110 L 90 120 L 130 70 L 170 90 L 210 40 L 250 50 L 290 20"
+                  fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" />
+                <!-- Active Points -->
+                <g class="chart-dots">
+                  <circle cx="130" cy="70" r="5" fill="var(--primary)" />
+                  <circle cx="210" cy="40" r="5" fill="var(--primary)" />
+                  <circle cx="290" cy="20" r="5" fill="var(--primary)" />
+                </g>
+              </svg>
+
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem;">
+                <div
+                  style="background: rgba(255,255,255,0.02); padding: 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.03);">
+                  <span style="font-size: 0.7rem; color: var(--text-muted); display: block;">ROAS Goal</span>
+                  <span style="font-family: monospace; font-weight: 600; color: #fff;">4.8x Avg</span>
+                </div>
+                <div
+                  style="background: rgba(255,255,255,0.02); padding: 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.03);">
+                  <span style="font-size: 0.7rem; color: var(--text-muted); display: block;">Audit Errors</span>
+                  <span style="font-family: monospace; font-weight: 600; color: var(--primary);">0% Detected</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- ABOUT / PERFIL SECTION --- -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="lang-es">Sobre Mí</span>
+          <span class="lang-en">About Me</span>
+        </h2>
+        <div class="about-grid">
+          <div class="about-content">
+            <h3 class="gradient-text" style="font-size: 1.8rem; line-height: 1.3;">
+              <span class="lang-es">Ingeniero en formación con mente analítica aplicada a negocios digitales</span>
+              <span class="lang-en">Engineer in training with an analytical mind applied to digital business</span>
+            </h3>
+            <p class="about-bio">
+              <span class="lang-es">
+                Soy un profesional de 25 años, estudiante activo de la carrera de Ingeniería en Sistemas, con sólida
+                experiencia en atención al cliente, auditoría interna y marketing digital. Cuento con 2 años de
+                experiencia en servicio al cliente, 3 años en auditoría interna y 2.5 años en gestión y auditoría de
+                campañas en Google Ads y Meta Ads.
+              </span>
+              <span class="lang-en">
+                I am a 25-year-old professional and active Systems Engineering student, with solid experience in
+                customer service, internal auditing, and digital marketing. I have 2 years of experience in customer
+                service, 3 years in internal auditing, and 2.5 years in managing and auditing Google Ads and Meta Ads
+                campaigns.
+              </span>
+            </p>
+            <p class="about-bio">
+              <span class="lang-es">
+                Me caracterizo por mi capacidad analítica, atención al detalle y orientación a resultados, así como por
+                mi habilidad para optimizar procesos, gestionar campañas de paid media y garantizar un alto nivel de
+                satisfacción del cliente.
+              </span>
+              <span class="lang-en">
+                I am characterized by my analytical capacity, attention to detail, and results orientation, as well as
+                my ability to optimize processes, manage paid media campaigns, and guarantee high levels of customer
+                satisfaction.
+              </span>
+            </p>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 2rem;">
+            <!-- Core Stats Grid -->
+            <div class="about-stats">
+              <div class="stat-card">
+                <div class="stat-value">25</div>
+                <div class="stat-label">
+                  <span class="lang-es">Años de Edad</span>
+                  <span class="lang-en">Years of Age</span>
+                </div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value">7.5+</div>
+                <div class="stat-label">
+                  <span class="lang-es">Años Exp. Total</span>
+                  <span class="lang-en">Years Total Exp.</span>
+                </div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value">2.5</div>
+                <div class="stat-label">
+                  <span class="lang-es">Paid Media Audits</span>
+                  <span class="lang-en">Paid Media Audits</span>
+                </div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value">3</div>
+                <div class="stat-label">
+                  <span class="lang-es">Auditoría Interna</span>
+                  <span class="lang-en">Internal Audits</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Personal info -->
+            <ul class="personal-info-list">
+              <li>
+                <span class="info-label"><span class="lang-es">Ubicación</span><span
+                    class="lang-en">Location</span></span>
+                <span class="info-value">Managua, Nicaragua</span>
+              </li>
+              <li>
+                <span class="info-label"><span class="lang-es">Educación</span><span
+                    class="lang-en">Education</span></span>
+                <span class="info-value">Ing. en Sistemas (UCN)</span>
+              </li>
+              <li>
+                <span class="info-label"><span class="lang-es">Idiomas</span><span
+                    class="lang-en">Languages</span></span>
+                <span class="info-value">Español & Inglés</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- SERVICES / ENFOQUES SECTION --- -->
+    <section id="specialties"
+      style="background: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="lang-es">Enfoques Especializados</span>
+          <span class="lang-en">Specialized Focus</span>
+        </h2>
+        <div class="services-grid">
+          <!-- Card 1: Data Analysis -->
+          <div class="service-card glow-border">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">
+              <span class="lang-es">Análisis de Datos</span>
+              <span class="lang-en">Data Analysis</span>
+            </h3>
+            <p class="service-desc">
+              <span class="lang-es">Monitoreo, recolección y visualización de datos de comportamiento de usuarios para
+                optimizar la toma de decisiones estratégicas de producto y marketing.</span>
+              <span class="lang-en">Monitoring, collection, and visualization of user behavior data to optimize
+                strategic product and marketing decision-making.</span>
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="lang-es">Implementación de Google Analytics & HubSpot</span>
+                <span class="lang-en">Google Analytics & HubSpot Implementation</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="lang-es">Análisis de calor y grabación con Microsoft Clarity</span>
+                <span class="lang-en">Heatmaps and recording audits with Microsoft Clarity</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="lang-es">Modelado e integración de bases de datos mediante SQL</span>
+                <span class="lang-en">Data modeling and integration using SQL</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="lang-es">Reportería avanzada e interactiva en Excel</span>
+                <span class="lang-en">Advanced and interactive reporting in Excel</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 2: Paid Media Analysis -->
+          <div class="service-card glow-border">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                </path>
+              </svg>
+            </div>
+            <h3 class="service-title">
+              <span class="lang-es">Paid Media Analysis</span>
+              <span class="lang-en">Paid Media Analysis</span>
+            </h3>
+            <p class="service-desc">
+              <span class="lang-es">Auditoría, estructuración y control financiero de campañas digitales en las
+                principales redes publicitarias para asegurar un ROI saludable.</span>
+              <span class="lang-en">Auditing, structuring, and financial control of digital campaigns across major
+                advertising platforms to secure a healthy ROI.</span>
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="lang-es">Auditoría técnica de tracking, segmentación y audiencias</span>
+                <span class="lang-en">Technical auditing of tracking, targeting, and audiences</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="lang-es">Optimización y control en Google Ads & Meta Ads</span>
+                <span class="lang-en">Optimization and control in Google Ads & Meta Ads</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="lang-es">Estudios competitivos y análisis del retorno de inversión</span>
+                <span class="lang-en">Competitive research and return-on-investment analysis</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="lang-es">Automatización con N8N + Inteligencia Artificial</span>
+                <span class="lang-en">Automation workflows with N8N + Artificial Intelligence</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- EXPERIENCE SECTION --- -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="lang-es">Experiencia Profesional</span>
+          <span class="lang-en">Professional Experience</span>
+        </h2>
+        <div class="timeline">
+          <!-- Job 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Ads Manager / Auditor Ads</h3>
+                  <span class="timeline-company">ONE CLICK</span>
+                </div>
+                <span class="timeline-date">2024 - 2026</span>
+              </div>
+              <div class="timeline-body">
+                <ul>
+                  <li>
+                    <span class="lang-es"><strong>Evaluación técnica y auditoría de pautas:</strong> Ejecución de
+                      auditorías técnicas sobre campañas en Google Ads, Meta Ads y Microsoft Ads, asegurando la correcta
+                      configuración de tracking, segmentación y audiencias.</span>
+                    <span class="lang-en"><strong>Technical evaluation and ads auditing:</strong> Execution of technical
+                      audits on Google Ads, Meta Ads, and Microsoft Ads campaigns, ensuring proper setup of tracking,
+                      segmentation, and audiences.</span>
+                  </li>
+                  <li>
+                    <span class="lang-es"><strong>Análisis estratégico e identificación de riesgos:</strong> Realización
+                      de estudios competitivos y análisis de datos de rendimiento para detectar desviaciones en el
+                      retorno de inversión y proponer optimizaciones inmediatas.</span>
+                    <span class="lang-en"><strong>Strategic analysis and risk identification:</strong> Conduction of
+                      competitive studies and performance data analysis to detect deviations in return on investment and
+                      propose immediate optimizations.</span>
+                  </li>
+                  <li>
+                    <span class="lang-es"><strong>Elaboración de informes:</strong> Redacción de reportes detallados del
+                      rendimiento y hallazgos clave de pautas publicitarias.</span>
+                    <span class="lang-en"><strong>Report creation:</strong> Writing detailed reports on advertising
+                      performance and key campaign audit findings.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Job 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">
+                    <span class="lang-es">Auditor Interno</span>
+                    <span class="lang-en">Internal Auditor</span>
+                  </h3>
+                  <span class="timeline-company">AMPM Nicaragua</span>
+                </div>
+                <span class="timeline-date">2022 - 2024</span>
+              </div>
+              <div class="timeline-body">
+                <ul>
+                  <li>
+                    <span class="lang-es"><strong>Auditorías operativas y financieras:</strong> Planificación y
+                      desarrollo de auditorías en tiendas y centros de distribución (CEDI) para verificar el
+                      cumplimiento de políticas, normas y disposiciones internas.</span>
+                    <span class="lang-en"><strong>Operational and financial audits:</strong> Planning and execution of
+                      audits in stores and distribution centers (CEDI) to verify compliance with internal policies and
+                      guidelines.</span>
+                  </li>
+                  <li>
+                    <span class="lang-es"><strong>Control interno y riesgos:</strong> Identificación de riesgos
+                      operativos mediante arqueos de caja, revisión de faltantes/sobrantes y validación de
+                      transferencias de inventario entre sucursales.</span>
+                    <span class="lang-en"><strong>Internal control and risk:</strong> Identification of operational
+                      risks through cash registers audits, checking shortages/surpluses, and validating inventory
+                      transfers between branches.</span>
+                  </li>
+                  <li>
+                    <span class="lang-es"><strong>Informes y recomendaciones:</strong> Redacción de informes detallados
+                      sobre pérdidas, variaciones de inventario y auditorías de expedientes de RRHH, formulando planes
+                      de mejora.</span>
+                    <span class="lang-en"><strong>Reporting and recommendations:</strong> Writing detailed reports on
+                      losses, inventory variations, and HR file audits, structuring continuous improvement plans.</span>
+                  </li>
+                  <li>
+                    <span class="lang-es"><strong>Verificación de cumplimiento:</strong> Auditoría de validación de
+                      precios, permisos de tiendas y normas de higiene y seguridad laboral.</span>
+                    <span class="lang-en"><strong>Compliance verification:</strong> Auditing price validation, store
+                      permits, and occupational health/safety standards.</span>
+                  </li>
+                  <li>
+                    <span class="lang-es"><strong>Seguimiento de planes de acción:</strong> Comunicación constante con
+                      administradores, operaciones y RRHH para mitigar desviaciones.</span>
+                    <span class="lang-en"><strong>Follow-up of action plans:</strong> Regular communication with
+                      managers, operations, and HR to correct operational deviations.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Job 3 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">
+                    <span class="lang-es">Cajero / Atención al Cliente</span>
+                    <span class="lang-en">Cashier / Customer Service</span>
+                  </h3>
+                  <span class="timeline-company">AMPM Nicaragua</span>
+                </div>
+                <span class="timeline-date">2021 - 2022</span>
+              </div>
+              <div class="timeline-body">
+                <ul>
+                  <li>
+                    <span class="lang-es"><strong>Manejo de caja:</strong> Arqueos diarios de caja, depósitos, retiros
+                      bancarios y procesamiento de remesas operativas.</span>
+                    <span class="lang-en"><strong>Cashier duties:</strong> Daily cash register audits, deposits, bank
+                      withdrawals, and processing transaction remittances.</span>
+                  </li>
+                  <li>
+                    <span class="lang-es"><strong>Atención al cliente:</strong> Resolución de incidencias en
+                      transacciones y servicio personalizado de alta calidad.</span>
+                    <span class="lang-en"><strong>Customer service:</strong> Resolution of transaction incidents and
+                      custom tailored client attention under quality standards.</span>
+                  </li>
+                  <li>
+                    <span class="lang-es"><strong>Control de sucursal:</strong> Recepción de pedidos, control de
+                      inventarios y mantenimiento del orden operativo.</span>
+                    <span class="lang-en"><strong>Store control:</strong> Receiving store orders, verifying stock
+                      inventory, and keeping operational order.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Job 4 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">
+                    <span class="lang-es">Cajero / Atención al Cliente</span>
+                    <span class="lang-en">Cashier / Customer Service</span>
+                  </h3>
+                  <span class="timeline-company">Variedades Valeria</span>
+                </div>
+                <span class="timeline-date">2020 - 2021</span>
+              </div>
+              <div class="timeline-body">
+                <ul>
+                  <li>
+                    <span class="lang-es"><strong>Operaciones de caja:</strong> Ejecución de arqueos de caja, recepción
+                      de depósitos y trámites de remesas.</span>
+                    <span class="lang-en"><strong>Cash operations:</strong> Performing cash registers counts, receiving
+                      deposits, and processing remittances.</span>
+                  </li>
+                  <li>
+                    <span class="lang-es"><strong>Administración básica:</strong> Corrección de registros bancarios
+                      elementales y supervisión general del local.</span>
+                    <span class="lang-en"><strong>Basic administration:</strong> Adjusting basic banking records and
+                      supervising overall establishment conditions.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- SKILLS & EDUCATION SECTION --- -->
+    <section id="skills-edu"
+      style="background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);">
+      <div class="container skills-edu-grid">
+        <!-- Education column -->
+        <div>
+          <h2 class="sub-section-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path>
+            </svg>
+            <span class="lang-es">Educación y Cursos</span>
+            <span class="lang-en">Education & Courses</span>
+          </h2>
+          <div class="edu-list">
+            <div class="edu-card">
+              <div class="edu-institution">Universidad Central de Nicaragua</div>
+              <h3 class="edu-title">
+                <span class="lang-es">Ingeniería en Sistemas</span>
+                <span class="lang-en">Systems Engineering</span>
+              </h3>
+              <span class="edu-date">2024 - <span class="lang-es">Cursando</span><span
+                  class="lang-en">Present</span></span>
+            </div>
+
+            <div class="edu-card">
+              <div class="edu-institution">IDEEM LATAM</div>
+              <h3 class="edu-title">
+                <span class="lang-es">Programación Web Básico-Intermedio</span>
+                <span class="lang-en">Basic-Intermediate Web Development</span>
+              </h3>
+              <span class="edu-date">2023</span>
+            </div>
+
+            <div class="edu-card">
+              <div class="edu-institution">English 4 Call Center</div>
+              <h3 class="edu-title">
+                <span class="lang-es">Curso de Inglés Avanzado</span>
+                <span class="lang-en">Advanced English Program</span>
+              </h3>
+              <span class="edu-date">2019</span>
+            </div>
+
+            <div class="edu-card">
+              <div class="edu-institution">Colegio José Domingo Espinoza</div>
+              <h3 class="edu-title">
+                <span class="lang-es">Bachillerato en Ciencias y Letras</span>
+                <span class="lang-en">High School Diploma</span>
+              </h3>
+              <span class="edu-date">2012 - 2017</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills column -->
+        <div class="skills-wrapper">
+          <h2 class="sub-section-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+              </path>
+            </svg>
+            <span class="lang-es">Habilidades Profesionales</span>
+            <span class="lang-en">Professional Skills</span>
+          </h2>
+
+          <div>
+            <h3 class="skill-category-title">
+              <span class="lang-es">Análisis y Paid Media</span>
+              <span class="lang-en">Analysis & Paid Media</span>
+            </h3>
+            <div class="skills-list">
+              <div class="skill-badge">Google Analytics</div>
+              <div class="skill-badge">Microsoft Clarity</div>
+              <div class="skill-badge">HubSpot CRM</div>
+              <div class="skill-badge">Google Ads</div>
+              <div class="skill-badge">Meta Ads</div>
+              <div class="skill-badge">Microsoft Ads</div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="skill-category-title">
+              <span class="lang-es">Tecnología y Automatización</span>
+              <span class="lang-en">Tech & Automations</span>
+            </h3>
+            <div class="skills-list">
+              <div class="skill-badge">N8N + IA Workflows</div>
+              <div class="skill-badge">SQL (Intermedio)</div>
+              <div class="skill-badge">Excel Avanzado</div>
+              <div class="skill-badge">HTML5 + CSS3</div>
+              <div class="skill-badge">JavaScript</div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="skill-category-title">
+              <span class="lang-es">Auditoría e Inventarios</span>
+              <span class="lang-en">Auditing & Logistics</span>
+            </h3>
+            <div class="skills-list">
+              <div class="skill-badge">
+                <span class="lang-es">Auditoría de Procesos</span>
+                <span class="lang-en">Process Auditing</span>
+              </div>
+              <div class="skill-badge">
+                <span class="lang-es">Gestión de Inventarios (Software)</span>
+                <span class="lang-en">Inventory Software</span>
+              </div>
+              <div class="skill-badge">
+                <span class="lang-es">Gestión de Control de Caja</span>
+                <span class="lang-en">Cash Control Management</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="skill-category-title">
+              <span class="lang-es">Intereses y Licencias</span>
+              <span class="lang-en">Interests & Licenses</span>
+            </h3>
+            <div class="skills-list">
+              <div class="skill-badge">
+                <span class="lang-es">Licencia de Conducir (Cat 1 y 2)</span>
+                <span class="lang-en">Driver's License (Cat 1 & 2)</span>
+              </div>
+              <div class="skill-badge">
+                <span class="lang-es">Moto Propia</span>
+                <span class="lang-en">Own Motorcycle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- CONTACT SECTION --- -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="lang-es">Hablemos sobre tu Proyecto</span>
+          <span class="lang-en">Let's Connect</span>
+        </h2>
+
+        <div class="contact-grid">
+          <!-- Information details -->
+          <div class="contact-info">
+            <h3 class="gradient-text" style="font-size: 1.8rem;">
+              <span class="lang-es">Información de Contacto</span>
+              <span class="lang-en">Contact Details</span>
+            </h3>
+            <p style="color: var(--text-secondary);">
+              <span class="lang-es">¿Quieres optimizar tus campañas de Paid Media o necesitas estructurar tus datos de
+                negocio? Envíame un mensaje y lo conversamos.</span>
+              <span class="lang-en">Looking to optimize your Paid Media campaigns or need to structure your business
+                data? Send a message and let's talk.</span>
+            </p>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-detail">
+                <h4>Email</h4>
+                <a href="mailto:jonassegdev@gmail.com">jonassegdev@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </div>
+              <div class="contact-detail">
+                <h4>LinkedIn</h4>
+                <a href="https://linkedin.com/in/jonas-espinoza" target="_blank"
+                  rel="noopener">linkedin.com/in/jonas-espinoza</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                  </path>
+                </svg>
+              </div>
+              <div class="contact-detail">
+                <h4><span class="lang-es">Teléfono</span><span class="lang-en">Phone</span></h4>
+                <a href="tel:+50575327682">(+505) 7532-7682</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-detail">
+                <h4><span class="lang-es">Residencia</span><span class="lang-en">Address</span></h4>
+                <p>Residencial Ciudad El Doral, Casa E-120. Managua, Nicaragua</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Panel -->
+          <div class="contact-form-container glow-border">
+            <!-- 
+              Para conectar con Google Sheets, reemplaza el valor de "action" por la URL de tu Web App 
+              generada al desplegar tu Google Apps Script. 
+            -->
+            <form id="contact-form"
+              action="https://script.google.com/macros/s/AKfycbz8A3ueD9rdL8mtAQ820QPUs833du5NXZyX0MOrMdkNJUHP8nZMILRFlGf_hfHnS1hx/exec"
+              method="POST" class="contact-form">
+              <div class="form-group">
+                <label for="form-name">
+                  <span class="lang-es">Nombre Completo</span>
+                  <span class="lang-en">Full Name</span>
+                </label>
+                <input type="text" id="form-name" name="name" required class="form-input"
+                  data-i18n-placeholder="namePlaceholder">
+              </div>
+
+              <div class="form-group">
+                <label for="form-email">
+                  <span class="lang-es">Correo Electrónico</span>
+                  <span class="lang-en">Email Address</span>
+                </label>
+                <input type="email" id="form-email" name="email" required class="form-input"
+                  data-i18n-placeholder="emailPlaceholder">
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject">
+                  <span class="lang-es">Asunto</span>
+                  <span class="lang-en">Subject</span>
+                </label>
+                <input type="text" id="form-subject" name="subject" required class="form-input"
+                  data-i18n-placeholder="subjectPlaceholder">
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">
+                  <span class="lang-es">Mensaje</span>
+                  <span class="lang-en">Message</span>
+                </label>
+                <textarea id="form-message" name="message" required class="form-input"
+                  data-i18n-placeholder="messagePlaceholder"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="justify-content: center; margin-top: 1rem;">
+                <span class="lang-es">Enviar Mensaje</span>
+                <span class="lang-en">Send Message</span>
+              </button>
+
+              <!-- Success / Error status messages -->
+              <div id="form-status" class="form-status"></div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- --- FOOTER --- -->
+  <footer>
+    <div class="container footer-content">
+      <div class="logo">
+        KEVIN<span>.DEV</span>
+      </div>
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/jonas-espinoza" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+        <a href="mailto:jonassegdev@gmail.com" aria-label="Email">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 Kevin Jonas Espinoza García. <span class="lang-es">Todos los derechos reservados.</span><span
+          class="lang-en">All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+
+</html>
