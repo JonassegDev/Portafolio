@@ -5,7 +5,7 @@ const translations = {
     emailPlaceholder: "Tu Correo Electrónico",
     subjectPlaceholder: "Asunto / Servicio de Interés",
     messagePlaceholder: "Cuéntame sobre tu proyecto o consulta...",
-    roles: ["Data Analyst", "Paid Media Specialist", "Systems Engineering Student"],
+    roles: ["Data Analyst", "Paid Media Specialist", "Systems Engineering Student", "Frontend Developer"],
     sending: "Enviando mensaje...",
     success: "¡Mensaje enviado con éxito! Nos comunicaremos contigo pronto.",
     error: "Hubo un error al enviar el mensaje. Por favor, intenta de nuevo."
@@ -15,7 +15,7 @@ const translations = {
     emailPlaceholder: "Your Email Address",
     subjectPlaceholder: "Subject / Service of Interest",
     messagePlaceholder: "Tell me about your project or inquiry...",
-    roles: ["Data Analyst", "Paid Media Specialist", "Systems Engineering Student"],
+    roles: ["Data Analyst", "Paid Media Specialist", "Systems Engineering Student", "Frontend Developer"],
     sending: "Sending message...",
     success: "Message sent successfully! I'll get back to you soon.",
     error: "There was an error sending your message. Please try again."
