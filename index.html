@@ -64,6 +64,12 @@
           </a>
         </li>
         <li>
+          <a href="#projects">
+            <span class="lang-es">Proyectos</span>
+            <span class="lang-en">Projects</span>
+          </a>
+        </li>
+        <li>
           <a href="#contact">
             <span class="lang-es">Contacto</span>
             <span class="lang-en">Contact</span>
@@ -125,51 +131,10 @@
           </div>
         </div>
 
-        <!-- Animated Tech Dashboard Representation -->
+        <!-- Profile Image with Green Shadow -->
         <div class="hero-visual">
-          <div class="dashboard-mockup">
-            <div class="dashboard-inner">
-              <div
-                style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.8rem;">
-                <span class="badge" style="font-size: 0.7rem;">Realtime Analytics</span>
-                <span style="font-family: monospace; font-size: 0.75rem; color: var(--primary);">CTR +34.2%</span>
-              </div>
-
-              <!-- SVG chart drawing dynamic path -->
-              <svg class="chart-svg" viewBox="0 0 300 150">
-                <defs>
-                  <linearGradient id="chart-grad" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.3" />
-                    <stop offset="100%" stop-color="var(--primary)" stop-opacity="0" />
-                  </linearGradient>
-                </defs>
-                <!-- Area -->
-                <path d="M 10 140 L 50 110 L 90 120 L 130 70 L 170 90 L 210 40 L 250 50 L 290 20 L 290 140 Z"
-                  fill="url(#chart-grad)" />
-                <!-- Line -->
-                <path class="chart-line" d="M 10 140 L 50 110 L 90 120 L 130 70 L 170 90 L 210 40 L 250 50 L 290 20"
-                  fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" />
-                <!-- Active Points -->
-                <g class="chart-dots">
-                  <circle cx="130" cy="70" r="5" fill="var(--primary)" />
-                  <circle cx="210" cy="40" r="5" fill="var(--primary)" />
-                  <circle cx="290" cy="20" r="5" fill="var(--primary)" />
-                </g>
-              </svg>
-
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem;">
-                <div
-                  style="background: rgba(255,255,255,0.02); padding: 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.03);">
-                  <span style="font-size: 0.7rem; color: var(--text-muted); display: block;">ROAS Goal</span>
-                  <span style="font-family: monospace; font-weight: 600; color: #fff;">4.8x Avg</span>
-                </div>
-                <div
-                  style="background: rgba(255,255,255,0.02); padding: 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.03);">
-                  <span style="font-size: 0.7rem; color: var(--text-muted); display: block;">Audit Errors</span>
-                  <span style="font-family: monospace; font-weight: 600; color: var(--primary);">0% Detected</span>
-                </div>
-              </div>
-            </div>
+          <div class="profile-image-container">
+            <img src="Recursos/cropped_circle_image.png" alt="Kevin Jonas Espinoza García" class="profile-image">
           </div>
         </div>
       </div>
@@ -267,6 +232,87 @@
                 <span class="info-value">Español & Inglés</span>
               </li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- PROJECTS SECTION --- -->
+    <section id="projects"
+      style="background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="lang-es">Proyectos Destacados</span>
+          <span class="lang-en">Featured Projects</span>
+        </h2>
+        <div class="projects-grid">
+          <!-- Project Card 1 -->
+          <div class="project-card glow-border">
+            <div class="project-header">
+              <h3 class="project-title">
+                <span class="lang-es">Proyecto 1</span>
+                <span class="lang-en">Project 1</span>
+              </h3>
+              <div class="project-tags">
+                <span class="project-tag">Tag</span>
+              </div>
+            </div>
+            <p class="project-description">
+              <span class="lang-es">Descripción del proyecto</span>
+              <span class="lang-en">Project description</span>
+            </p>
+            <div class="project-footer">
+              <a href="#" class="project-link">
+                <span class="lang-es">Ver Proyecto</span>
+                <span class="lang-en">View Project</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-card glow-border">
+            <div class="project-header">
+              <h3 class="project-title">
+                <span class="lang-es">Proyecto 2</span>
+                <span class="lang-en">Project 2</span>
+              </h3>
+              <div class="project-tags">
+                <span class="project-tag">Tag</span>
+              </div>
+            </div>
+            <p class="project-description">
+              <span class="lang-es">Descripción del proyecto</span>
+              <span class="lang-en">Project description</span>
+            </p>
+            <div class="project-footer">
+              <a href="#" class="project-link">
+                <span class="lang-es">Ver Proyecto</span>
+                <span class="lang-en">View Project</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="project-card glow-border">
+            <div class="project-header">
+              <h3 class="project-title">
+                <span class="lang-es">Proyecto 3</span>
+                <span class="lang-en">Project 3</span>
+              </h3>
+              <div class="project-tags">
+                <span class="project-tag">Tag</span>
+              </div>
+            </div>
+            <p class="project-description">
+              <span class="lang-es">Descripción del proyecto</span>
+              <span class="lang-en">Project description</span>
+            </p>
+            <div class="project-footer">
+              <a href="#" class="project-link">
+                <span class="lang-es">Ver Proyecto</span>
+                <span class="lang-en">View Project</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -389,6 +435,60 @@
                 </svg>
                 <span class="lang-es">Automatización con N8N + Inteligencia Artificial</span>
                 <span class="lang-en">Automation workflows with N8N + Artificial Intelligence</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 3: Web Development / Front-End Development -->
+          <div class="service-card glow-border">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12h18M3 6h18M3 18h18M5 9v6M19 9v6"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">
+              <span class="lang-es">Desarrollo Web / Front-End</span>
+              <span class="lang-en">Web Developer / Front-End</span>
+            </h3>
+            <p class="service-desc">
+              <span class="lang-es">Creación de sitios web modernos, interactivos y responsive con enfoque en
+                experiencia de usuario y rendimiento digital óptimo.</span>
+              <span class="lang-en">Building modern, interactive, and responsive websites focused on user
+                experience and optimal digital performance.</span>
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="lang-es">Desarrollo con HTML5, CSS3 y JavaScript</span>
+                <span class="lang-en">Development with HTML5, CSS3 and JavaScript</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="lang-es">Diseño responsive y optimización UX/UI</span>
+                <span class="lang-en">Responsive design and UX/UI optimization</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="lang-es">Integración de APIs y herramientas de terceros</span>
+                <span class="lang-en">API integration and third-party tools</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="lang-es">Optimización de rendimiento y SEO</span>
+                <span class="lang-en">Performance optimization and SEO</span>
               </li>
             </ul>
           </div>
@@ -877,6 +977,11 @@
             <polyline points="22,6 12,13 2,6"></polyline>
           </svg>
         </a>
+        <a href="https://github.com/JonassegDev" aria-label="GitHub">
+         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+           <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+          </a>
       </div>
       <div class="footer-copy">
         &copy; 2026 Kevin Jonas Espinoza García. <span class="lang-es">Todos los derechos reservados.</span><span
